@@ -1,0 +1,66 @@
+/* color1: #1e1e1e */
+/* color2: #cc0001 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 8rem;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    margin-left: 8rem;
+}
+
+.nav-link {
+    padding: 0 1rem;
+}
+
+.links-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px #fff;
+    padding: 0 0 1rem 0;
+}
+
+.links-2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem 0 0 0;
+}
+
+.font-bold { 
+    font-weight: bold; 
+}
+
+.nav-btn {
+    background-color: white;
+    padding: .6rem 1.5rem;
+    border-radius: 50rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.icon-btn {
+    background-color: transparent;
+    border: none;
+    width: 1.3rem;
+    cursor: pointer;
+}
