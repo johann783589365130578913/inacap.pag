@@ -15,6 +15,21 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+}
+
+header {
+    background: linear-gradient(#0000008a, #0000008a), url(/img/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 a {
@@ -23,11 +38,12 @@ a {
 }
 
 .nav-links {
-    margin-left: 8rem;
+    margin-left: 5rem;
 }
 
 .nav-link {
-    padding: 0 1rem;
+    padding: 0 .4rem;
+    font-size: 14px;
 }
 
 .links-1 {
@@ -35,14 +51,14 @@ a {
     justify-content: center;
     align-items: center;
     border-bottom: solid 2px #fff;
-    padding: 0 0 1rem 0;
+    padding: 0 0 .7rem 0;
 }
 
 .links-2 {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 1rem 0 0 0;
+    padding: .7rem 0 0 0;
 }
 
 .font-bold { 
@@ -63,4 +79,18 @@ a {
     border: none;
     width: 1.3rem;
     cursor: pointer;
+}
+
+.header-titulo {
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.header-descripcion {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.inacap-icon {
+    width: 9rem;
 }
