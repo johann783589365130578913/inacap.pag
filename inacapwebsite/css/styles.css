@@ -152,3 +152,130 @@ a {
     font-size: 1rem;
     cursor: pointer;
 }
+
+.seccion-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.titulos {
+    text-align: center;
+    width: 72rem;
+    margin-bottom: 2rem;
+}
+
+.titulos h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+}
+
+.transparente-blank-btn {
+    background-color: transparent;
+    border: solid 2.5px white;
+    color: white;
+    font-weight: bold;
+    padding: .7rem 1.5rem;
+    border-radius: 50rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.black-btn:hover, .transparente-btn:hover {
+    text-decoration: underline;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4 {
+    display: flex;
+    width: 76.5rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta1 .textos {
+    background-color: #e3e3e3;
+    padding: 2rem;
+}
+
+.tarjeta2 .textos {
+    background-color: #707070;
+    color: white;
+    padding: 2rem;
+}
+
+.tarjeta3 .textos {
+    background-color: #e3e3e3;
+    padding: 2rem;
+}
+
+.tarjeta4 .textos {
+    background-color: #707070;
+    color: white;
+    padding: 2rem;
+}
+
+.textos h3 {
+    margin-bottom: .8rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.seccion-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.seccion-3 .titulos {
+    width: 76.5rem;
+    text-align: left;
+}
+
+.seccion-3 .titulos h3 {
+    border-left: solid 6px #cc0001;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+
+.contenidos-temas {
+    width: 76.5rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.contenidos-temas .tarjeta {
+    display: flex;
+}
+
+.contenidos-temas .tarjeta .textos {
+    padding: 1.5rem;
+    background-color: #e3e3e3;
+    width: 19rem;
+}
+
+.contenidos-temas .tarjeta .textos h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.black-btn-text {
+    color: black;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+}
+
+.tarjeta-btn {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
