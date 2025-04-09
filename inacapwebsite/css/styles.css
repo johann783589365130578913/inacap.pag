@@ -1,5 +1,6 @@
 /* color1: #1e1e1e */
 /* color2: #cc0001 */
+/* color3: #e3e3e3 */
 
 * {
     padding: 0;
@@ -93,4 +94,61 @@ a {
 
 .inacap-icon {
     width: 9rem;
+}
+
+.seccion-1 {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.info {
+    width: 20rem;
+    height: 20rem;
+    padding: .5rem 1.6rem;
+}
+
+.info h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.linea-vertical {
+    height: 20rem;
+    width: 2px;
+    background-color: black;
+}
+
+.info button, p {
+    margin-bottom: 1rem;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+    padding: .7rem 1.5rem;
+    border-radius: 50rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 14rem;
+}
+
+.transparente-btn {
+    background-color: transparent;
+    border: solid 2.5px black;
+    font-weight: bold;
+    padding: .7rem 1.5rem;
+    border-radius: 50rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
